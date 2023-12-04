@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ebrima', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 30px; /* Adjusted font size */
+    color: #4c4c4c;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    color: #c5c6c7;
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px; /* Adjusted padding for better spacing */
+}
+
+nav ul li a {
+    color: #ffffffe6;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 10px; /* Adjusted padding for better spacing */
+}
+
+nav ul li a:hover {
+    background-color: #ffffff; /* Adjusted background color */
+    color: #333; /* Adjusted text color on hover for better contrast */
+    transition: 0.5s ease;
+}
+
+nav ul li.active {
+    background-color: #ac571b;
+}
+
+.article {
+    width: 60%; /* Adjusted width for better responsiveness */
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1 {
+    font-size: 36px;
+    color: #ff0099;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.article p {
+    font-size: 16px; /* Adjusted font size for better readability */
+    color: rgb(0, 0, 0);
+    line-height: 2.0; /* Adjusted line height for better readability */
+    margin-bottom: 20px;
+}
+
+.article .btn {
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ef5050;
+    border-radius: 5px; /* Added border-radius for a rounded button look */
+}
+
+.article .btn:hover {
+    background-color: #4c4c4c;
+    transition: 0.5s ease;
+}
